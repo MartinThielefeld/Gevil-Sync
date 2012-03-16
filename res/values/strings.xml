@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Gevil!</string>
+    <string name="app_name">Gevil-Sync</string>
+    <string name="exp">Kontake exportieren</string>
+    <string name="imp">Kontakte importieren</string>
+    
+    <!-- ab hier: SyncAdapter. -->
+        
+    <string name="syncAdapterLabel">Gevil-Sync GroupDAV</string>
+
+    <!-- Title string for Login activity-->
+    <string
+        name="ui_activity_title">Einloggen</string>
+    <!-- Message shown in progress dialog while app connects to the server -->
+    <string  name="ui_activity_authenticating">Authentifizierung läuft\u2026</string>
+
+    <!-- AuthenticatorActivity -->
+    <skip />
+    <!-- Label above username EditText -->
+    <string    name="login_activity_username_label">Username</string>
+    <!-- Label above password EditText -->
+    <string   name="login_activity_password_label">Passwort</string>
+    <!-- Button to sign in after entering username and password -->
+    <string   name="login_activity_ok_button">Einloggen</string>
+
+    <!-- Message shown in dialog if the username or password is invalid. -->
+    <string
+        name="login_activity_loginfail_text_both"> Der Benutzername oder das Passwort ist ungültig. Es wird ein Account auf einem GroupDAV
+        Server benötigt. Bitte versuchen sie es erneut.</string>
+    
+    
+    <!-- Message shown in dialog if the password is invalid -->    
+    <string  name="login_activity_loginfail_text_pwonly">Sie haben ein falsches Passwort eingegeben, oder ihr Account hat sich geändert.
+        Bitte geben sie das Passwort erneut ein.</string>
+    
+    
+     <string name="login_activity_loginfail_text_pwmissing">Geben sie das Passwort für diesen Account ein.</string>    
+    
+    <!--
+        Wird bei Erstellung eines neuen Accounts angezeigt.
+    -->    
+    <string  name="login_activity_newaccount_text">Bitte loggen Sie sich mit dem Passwort des Servers ein, den Gevil-Sync verwenden soll. </string>    
+    <string name="b1">Timeout für Authentifizierung</string>    
+    <string name="b2">GroupDAV-Kontakte Adresse</string>    
+    <string name="b3">GroupDAV Kalender Adresse</string> 
+
+
+</resources>

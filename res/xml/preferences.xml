@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Isseue Code:  http://code.google.com/p/android/issues/detail?id=8350
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+         
+         
+      <Preference
+         android:title="Offene Konflikte"
+         android:summary="Zeige offene Konflikte an"
+         android:key="showConflicts" />
+        
+		    <PreferenceCategory
+            android:title="Einstellungen Kontaktsynchronisation">
+
+	
+	        <EditTextPreference
+	                android:name="EditText Preference"
+	                android:summary="GroupDAV Kontakte URL"
+	                android:defaultValue="http://192.168.2.103/groupdav/Contacts"
+	                android:title="Server URL"
+	                android:key="editContactsURL" />
+	        
+	        <CheckBoxPreference                
+	                android:title="Vorgehen im Konfliktfall"
+	                android:defaultValue="false"
+	                android:summary="Server Wins"
+	                android:key="cbContactsPhoneWins" />
+                
+        </PreferenceCategory> 
+        
+  
+                 
+            
+        <PreferenceCategory
+            
+                android:title="Einstellungen Kalendersynchronisation" >
+                         
+	        <EditTextPreference
+	                android:name="EditText Preference"
+	                android:summary="GroupDAV Kalender URL"
+	                android:defaultValue="http://192.168.2.103/groupdav/Calendar"
+	                android:title="Server URL"
+	                android:key="editCalendarURL" />
+	        
+	        <CheckBoxPreference                
+	                android:title="Vorgehen im Konfliktfall"
+	                android:defaultValue="false"
+	                android:summary="Server Wins"
+	                android:key="cbCalPhoneWins" />
+         </PreferenceCategory>  
+        
+            
+
+       
+        
+
+</PreferenceScreen>

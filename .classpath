@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="lib/ical4j-vcard/ical4j-vcard-0.9.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/ical4j-vcard/ical4j-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/ical4j-vcard/backport-util-concurrent-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/ical4j-vcard/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="lib/ical4j-vcard/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/ical4j-vcard/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/ical4j-vcard/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jdom/jdom-1.1.1-android-fork.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
